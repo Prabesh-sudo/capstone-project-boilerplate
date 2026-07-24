@@ -3,18 +3,23 @@
 Your capstone is static HTML/CSS/JS, so GitHub Pages needs no build step —
 it serves the files in your repo directly.
 
-## 1. Push your project to GitHub
+## 1. Move your branch into your own repo
 
-If you haven't already:
+You built your project on a branch of the class boilerplate repo, named
+`name-project`. Deploying means moving that branch's code into a repo
+under your own GitHub account:
 
-```
-git init
-git add .
-git commit -m "feat: initial commit"
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git branch -M main
-git push -u origin main
-```
+1. On GitHub, create a new empty repository under your own account.
+2. In your local clone, check out your branch:
+   ```
+   git checkout name-project
+   ```
+3. Point that clone at your new repo instead of the class one, and push
+   your branch there as `main`:
+   ```
+   git remote set-url origin https://github.com/<your-username>/<your-repo>.git
+   git push -u origin name-project:main
+   ```
 
 ## 2. Turn on Pages
 

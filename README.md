@@ -1,5 +1,17 @@
 # Capstone Project Boilerplate
 
+## Workflow
+
+1. Clone this repo and create a branch named `name-project` (replace
+   `name` with your own name, e.g. `ujjwal-project`). Do all your work —
+   including the milestone commits from §4 — on that branch, pushed back
+   to this repo.
+2. Once finished, create your own repository on your personal GitHub
+   account and push your finished branch there as `main`.
+3. Deploy your own repo to GitHub Pages — see `DEPLOY.md`.
+
+---
+
 clone this, replace the content and the API
 call, and build your project on top of it.
 
