@@ -2,13 +2,15 @@
 
 ## Workflow
 
-1. Clone this repo and create a branch named `name-project` (replace
+1. Request collaborator access on this repo — share your GitHub username
+   with the instructor, who will add you before you try to push.
+2. Clone this repo and create a branch named `name-project` (replace
    `name` with your own name, e.g. `ujjwal-project`). Do all your work —
    including the milestone commits from §4 — on that branch, pushed back
    to this repo.
-2. Once finished, create your own repository on your personal GitHub
+3. Once finished, create your own repository on your personal GitHub
    account and push your finished branch there as `main`.
-3. Deploy your own repo to GitHub Pages — see `DEPLOY.md`.
+4. Deploy your own repo to GitHub Pages — see `DEPLOY.md`.
 
 ---
 
