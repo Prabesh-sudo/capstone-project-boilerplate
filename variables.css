@@ -1,1 +1,125 @@
+/* ==========================================
+   VARIABLES.CSS
+   ShopSphere Design System
+========================================== */
 
+:root {
+  /* ======================================
+     BRAND COLORS
+  ====================================== */
+
+  --primary: #0d6efd;
+  --primary-dark: #0b5ed7;
+
+  --secondary: #6c757d;
+
+  --success: #198754;
+  --danger: #dc3545;
+  --warning: #ffc107;
+  --info: #0dcaf0;
+
+  /* ======================================
+     NEUTRAL COLORS
+  ====================================== */
+
+  --white: #ffffff;
+  --black: #000000;
+
+  --background: #f8f9fa;
+  --surface: #ffffff;
+
+  --text: #212529;
+  --text-light: #6c757d;
+
+  --border: #dee2e6;
+
+  /* ======================================
+     TYPOGRAPHY
+  ====================================== */
+
+  --font-family: "Poppins", sans-serif;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 2.8rem;
+  --fs-4xl: 3.5rem;
+
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --line-height: 1.6;
+
+  /* ======================================
+     SPACING
+  ====================================== */
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 80px;
+
+  /* ======================================
+     BORDER RADIUS
+  ====================================== */
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-round: 50%;
+
+  /* ======================================
+     SHADOWS
+  ====================================== */
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+  --shadow-lg: 0 15px 35px rgba(0, 0, 0, 0.18);
+
+  --card-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+
+  /* ======================================
+     TRANSITIONS
+  ====================================== */
+
+  --transition-fast: 0.2s ease;
+
+  --transition: 0.3s ease;
+
+  --transition-slow: 0.5s ease;
+
+  /* ======================================
+     LAYOUT
+  ====================================== */
+
+  --container-width: 1200px;
+
+  --navbar-height: 72px;
+
+  --hero-height: 90vh;
+
+  /* ======================================
+     COMPONENTS
+  ====================================== */
+
+  --btn-padding: 12px 28px;
+
+  --btn-radius: 8px;
+
+  --card-padding: 20px;
+
+  --card-radius: 16px;
+}
