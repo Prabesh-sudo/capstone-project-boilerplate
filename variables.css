@@ -1,0 +1,174 @@
+/* ===========================================
+   VARIABLES.CSS
+   Global Design Tokens
+=========================================== */
+
+:root {
+  /* ========= COLORS ========= */
+
+  --primary: #0d6efd;
+  --primary-dark: #0b5ed7;
+  --secondary: #6c757d;
+
+  --success: #198754;
+  --danger: #dc3545;
+  --warning: #ffc107;
+  --info: #0dcaf0;
+
+  --white: #ffffff;
+  --black: #000000;
+
+  --background: #f8f9fa;
+  --surface: #ffffff;
+
+  --text: #212529;
+  --text-light: #6c757d;
+
+  --border: #dee2e6;
+
+  /* ========= TYPOGRAPHY ========= */
+
+  --font-family: "Poppins", sans-serif;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 2.8rem;
+  --fs-4xl: 3.5rem;
+
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --line-height: 1.6;
+
+  /* ========= SPACING ========= */
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 5rem;
+
+  /* ========= BORDER ========= */
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-round: 50%;
+
+  /* ========= SHADOW ========= */
+
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+  --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+  --shadow-lg: 0 15px 35px rgba(0, 0, 0, 0.18);
+
+  /* ========= TRANSITIONS ========= */
+
+  --transition-fast: 0.2s;
+
+  --transition: 0.3s ease;
+
+  --transition-slow: 0.5s ease;
+
+  /* ========= CONTAINER ========= */
+
+  --container-width: 1200px;
+
+  /* ========= NAVBAR ========= */
+
+  --navbar-height: 70px;
+
+  /* ========= PRODUCT CARD ========= */
+
+  --card-radius: 14px;
+
+  --card-padding: 20px;
+
+  --card-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+
+  /* ========= BUTTON ========= */
+
+  --btn-padding: 12px 28px;
+
+  --btn-radius: 8px;
+
+  /* ========= HERO ========= */
+
+  --hero-height: 90vh;
+}
+
+/* ===========================================
+   GLOBAL RESET
+=========================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+
+  font-size: var(--fs-md);
+
+  color: var(--text);
+
+  background: var(--background);
+
+  line-height: var(--line-height);
+
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+
+  display: block;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+
+  transition: var(--transition);
+}
+
+button {
+  transition: var(--transition);
+
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.page {
+  min-height: 100vh;
+
+  padding-top: 40px;
+
+  padding-bottom: 40px;
+}
+
+.container {
+  max-width: var(--container-width);
+}
